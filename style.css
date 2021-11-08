@@ -1,0 +1,68 @@
+* {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+}
+#body {
+    transition: all 1.2s;
+}
+
+img {
+    cursor:pointer;
+    width: 60px;
+    height: 50px;
+    
+}
+
+img:hover{
+transform: rotate(360deg);
+transition: ease 1s;
+}
+
+#bigtext {
+    position: absolute;
+    font-size: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    width: 100%;
+}
+
+ul {
+    display: none;
+    position: absolute;
+    line-height: 45px;
+    padding: 0px 0px 0px 0px;;
+    list-style-type: none;
+    background-color: rgba(226, 226, 226, 0.166);
+}
+
+#listWhite, #listRed, #listOrange, #listPurple, #listGreen {
+  
+    padding-left:15px;
+    opacity: 15;
+    transition: .5s;
+  
+}
+#listWhite:hover {
+    background-color: white;
+}
+#listRed:hover {
+    background-color: red;
+}
+#listOrange:hover {
+    background-color: orange;
+}
+#listPurple:hover{
+    background-color: purple;
+}
+#listGreen:hover {
+    background-color: green;
+}
+
+.radioButtons {
+    text-align: center;
+    width: 100%;
+
+}
+
