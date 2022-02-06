@@ -96,4 +96,3 @@ document.addEventListener ('keydown', changeByKeypress, true);
     
     
 
-    12
